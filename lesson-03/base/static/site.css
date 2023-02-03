@@ -57,10 +57,12 @@ a.active {
     color: white;
 }
 
-#user {
+#user, #guest{
+    display: inline;
+}
+
+.home,.create,.login,.reg {
     display: none;
 }
 
-#guest {
-    display: none;
-}
+ 
